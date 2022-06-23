@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke Test" verbose="1" >
+    <test name="Login Test">
+        <classes>
+            <class name="com.testngg.features.LoginAndLogoutTest" />
+        </classes>
+    </test>
+    <test name="PDP Page Test">
+        <classes>
+            <class name="com.testngg.features.PDPPageTest" />
+        </classes>
+    </test>
+</suite>
+
+
+
+
+

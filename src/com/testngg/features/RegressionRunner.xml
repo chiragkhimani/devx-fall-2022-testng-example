@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Test" verbose="1" >
+        <packages>
+            <package name="com.testngg.features" />
+        </packages>
+</suite>
+
+
+
+
