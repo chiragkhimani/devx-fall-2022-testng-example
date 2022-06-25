@@ -1,20 +1,33 @@
 package com.testngg.features;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+@Test(groups = { "login" })
 public class LoginAndLogoutTest extends BaseTest {
 
-    @Test
-    public void verifyLoginLogoutFunctionalitiy() {
-        System.out.println("Open Browser ");
-        System.out.println("Navigate to https://www.saucedemo.com/");
-        System.out.println("Verify user is on login page");
-        System.out.println("Login with valid credentials (standard_user, secret_sauce)");
-        System.out.println("Verify user is on inventory page");
-        System.out.println("Click on hamburger menu from left");
-        System.out.println("Verify items four items on hamburger menu");
-        System.out.println("Click on logout button");
-        System.out.println("Verify user is on login page");
+    @Test(groups = "Smoke")
+    @Parameters({"url","browser"})
+    public void verifyLoginLogoutFunctionalitiy(String url, String browser) {
+        System.out.println("Open URl "+url);
+    }
+
+    @Test(groups = "Smoke")
+    @Parameters("browser")
+    public void verifyLoginSuccessfulWithValidCredentials(String browser) {
+        System.out.println("Login Test 2" + browser);
+    }
+
+    @Test(groups ="Fernando")
+    @Parameters("browser")
+    public void verifyLoginUnSuccessfulWithInValidCredentials(String browser) {
+        System.out.println("Login Test 3" + browser);
+    }
+
+    @Test(groups = {"Regression", "Fernando"})
+    @Parameters("browser")
+    public void verifyErrorMessageForBlankCredentials(String browser) {
+        System.out.println("Login Test 4" + browser);
     }
 
 }

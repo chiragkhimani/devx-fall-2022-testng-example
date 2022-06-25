@@ -3,9 +3,11 @@ package com.testng.demo;
 import org.testng.annotations.*;
 
 public class BaseTest {
+
     @BeforeTest
-    public void setUp(){
-        System.out.println("Before");
+    @Parameters("browser")
+    public void setUp(String browser){
+        System.out.println("Launching ---> "+browser);
     }
 
     @AfterTest
