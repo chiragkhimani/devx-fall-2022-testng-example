@@ -1,33 +1,32 @@
 package com.testngg.features;
 
-import org.testng.annotations.Parameters;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@Test(groups = { "login" })
 public class LoginAndLogoutTest extends BaseTest {
 
-    @Test(groups = "Smoke")
-    @Parameters({"url","browser"})
-    public void verifyLoginLogoutFunctionalitiy(String url, String browser) {
-        System.out.println("Open URl "+url);
+    @Test(groups = {"Regression", "Fernando"},dataProvider = "positiveData")
+    public void verifyPositiveAmountScenario(int amount) {
+        System.out.println(amount);
     }
 
-    @Test(groups = "Smoke")
-    @Parameters("browser")
-    public void verifyLoginSuccessfulWithValidCredentials(String browser) {
-        System.out.println("Login Test 2" + browser);
+
+    @Test(groups = {"Regression", "Fernando"},dataProvider = "positiveData")
+    public void verifyNegativeAmountScenario(int amount) {
+        System.out.println(amount);
     }
 
-    @Test(groups ="Fernando")
-    @Parameters("browser")
-    public void verifyLoginUnSuccessfulWithInValidCredentials(String browser) {
-        System.out.println("Login Test 3" + browser);
+    @DataProvider(name="positiveData")
+    public Object[] positiveAmountData(){
+        Object[] obj= {1,99999999,556,0.11};
+        return obj;
     }
 
-    @Test(groups = {"Regression", "Fernando"})
-    @Parameters("browser")
-    public void verifyErrorMessageForBlankCredentials(String browser) {
-        System.out.println("Login Test 4" + browser);
+    @DataProvider(name="negativeData")
+    public Object[] negativeAmountData(){
+        Object[] obj= {0.001,999999990,-12,909090999};
+        return obj;
     }
 
 }

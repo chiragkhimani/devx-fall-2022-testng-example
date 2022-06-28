@@ -7,9 +7,7 @@ public abstract class BaseTest {
 
     @BeforeMethod
     public void setUp(){
-        System.out.println("Open Browser");
-        System.out.println("Navigate to https://www.saucedemo.com/");
-        System.out.println("Verify user is on login page");
+        System.out.println("Opening browser");
     }
 
     @AfterMethod

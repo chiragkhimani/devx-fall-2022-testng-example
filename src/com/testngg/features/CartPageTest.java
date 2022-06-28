@@ -9,4 +9,15 @@ public class CartPageTest extends BaseTest {
 
     }
 
+    @Test
+    public void verifyRemoveItemFunctionality1() {
+
+    }
+
+
+    @Test
+    public void verifyRemoveItemFunctionality2() {
+
+    }
+
 }
