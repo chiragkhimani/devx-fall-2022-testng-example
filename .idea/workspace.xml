@@ -5,37 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be2eb06c-9736-41f6-9ab1-fc4f05a01cc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/test/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/test/CartPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/test/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNGExample.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/class01/DivTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/class01/ModuloTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/class01/MulTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testng/demo/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testng/demo/TestNGTestClass1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testng/demo/TestNGTestClass2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testng/demo/testng.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testngg/features/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testngg/features/CartPageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testngg/features/LoginAndLogoutTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testngg/features/PDPPageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testngg/features/RegressionRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testngg/features/SmokeRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testngg/features/TestNGFeatureTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/test/OrderCancellationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/test/ProductListingPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/runner/smoke_runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/runner/test_runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/test/CartPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/test/CartPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/test/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automation/test/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/test/CartPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automation/test/CartPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/test/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automation/test/LoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +40,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/runner" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\khima\IdeaProjects\TestNGExample\src\test\resources\runner" />
       <recent name="C:\Users\khima\IdeaProjects\TestNGExample\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CartPageTest">
+  <component name="RunManager" selected="TestNG.C:/Users/khima/IdeaProjects/TestNGExample/src/test/resources/runner/test_runner.xml">
+    <configuration name="C:/Users/khima/IdeaProjects/TestNGExample/src/test/resources/runner/test_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGExample" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/runner/test_runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CartPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGExample" />
       <extension name="coverage">
@@ -103,24 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTestNGTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.automation.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.automation.test" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.test.FirstTestNGTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGExample" />
       <extension name="coverage">
@@ -138,12 +110,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/khima/IdeaProjects/TestNGExample/src/test/resources/runner/test_runner.xml" />
+        <item itemvalue="TestNG.runner" />
         <item itemvalue="TestNG.CartPageTest" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.FirstTestNGTest" />
-        <item itemvalue="TestNG.FirstTestNGTest.firstTest" />
       </list>
     </recent_temporary>
   </component>
